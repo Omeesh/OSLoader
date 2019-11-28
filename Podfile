@@ -7,6 +7,6 @@ target 'OSLoader' do
 
   # Pods for OSLoader
   #lottie Animation
-  pod 'lottie-ios', '~> 3.1.3'
+  pod 'lottie-ios','~> 3.1.3'
 
 end
