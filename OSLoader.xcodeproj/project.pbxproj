@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		186BB5E0238FF2AE00F4578D /* OSLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 186BB5DE238FF2AE00F4578D /* OSLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		186BB5EA238FF34A00F4578D /* OSLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BB5E7238FF34800F4578D /* OSLoader.swift */; };
-		186BB5EC238FF34A00F4578D /* OSLoader.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 186BB5E9238FF34A00F4578D /* OSLoader.podspec */; };
 		186BB5EF238FF3B500F4578D /* lottie_loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 186BB5EE238FF3B500F4578D /* lottie_loader.json */; };
 		BD3F28D08602C1A49279FAC3 /* Pods_OSLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665AC46BA7B1764C1D93A862 /* Pods_OSLoader.framework */; };
 /* End PBXBuildFile section */
@@ -19,7 +18,6 @@
 		186BB5DE238FF2AE00F4578D /* OSLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSLoader.h; sourceTree = "<group>"; };
 		186BB5DF238FF2AE00F4578D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186BB5E7238FF34800F4578D /* OSLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSLoader.swift; sourceTree = "<group>"; };
-		186BB5E9238FF34A00F4578D /* OSLoader.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OSLoader.podspec; sourceTree = "<group>"; };
 		186BB5EE238FF3B500F4578D /* lottie_loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_loader.json; sourceTree = "<group>"; };
 		4A58FD2D0CB1503F26B592DB /* Pods-OSLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLoader.release.xcconfig"; path = "Target Support Files/Pods-OSLoader/Pods-OSLoader.release.xcconfig"; sourceTree = "<group>"; };
 		665AC46BA7B1764C1D93A862 /* Pods_OSLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				186BB5DE238FF2AE00F4578D /* OSLoader.h */,
-				186BB5E9238FF34A00F4578D /* OSLoader.podspec */,
 				186BB5ED238FF3A200F4578D /* Resources */,
 				186BB5E6238FF34800F4578D /* Views */,
 				186BB5DF238FF2AE00F4578D /* Info.plist */,
@@ -170,7 +167,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186BB5EC238FF34A00F4578D /* OSLoader.podspec in Resources */,
 				186BB5EF238FF3B500F4578D /* lottie_loader.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

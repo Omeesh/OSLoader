@@ -33,6 +33,7 @@ Pod::Spec.new do |spec|
 
    spec.requires_arc = true
 
-   spec.dependency "lottie-ios"
+    spec.dependency 'lottie-ios', '~> 3.1.3'
+
 
 end
